@@ -1,0 +1,135 @@
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url("./img/loader.gif") no-repeat center center;
+  z-index: 99999;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: aliceblue;
+}
+nav ul li a:hover {
+  color: #6e1e1e !important;
+}
+nav ul li a {
+  margin-right: 10px !important;
+}
+#login {
+  padding: 6px 22px 8px 20px;
+  background-color: #21b573;
+  border-radius: 25px;
+}
+.mainHeader {
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 6%) !important;
+
+  background: white !important;
+}
+
+marquee {
+  margin-top: 4px;
+  color: burlywood;
+}
+.notice {
+  padding: 10px;
+  border-radius: 22px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.sliderSection img {
+  height: 450px !important;
+}
+.carousel-inner {
+  border-radius: 15px;
+}
+.sidebar {
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px darkgray;
+  border-radius: 24px 10px 28px;
+}
+.noti ul li:hover {
+  background-color: rgb(208, 229, 247);
+  border-radius: 10px;
+  transform: rotate(2deg);
+}
+.noti ul li a {
+  text-decoration: none;
+  color: black;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  background-color: #6e1e1e;
+  display: inline-block;
+}
+.noti ul li {
+  list-style-type: none;
+}
+.notice-section {
+  background-color: white;
+  box-shadow: 2px 1px 6px 4px lightgrey;
+  border-radius: 1px 1px 4px 12px;
+
+  margin-top: 11px;
+  height: auto;
+  padding-bottom: 59px;
+}
+.notice-section img {
+  width: 30px;
+}
+.noti-img {
+  margin-right: 15px;
+}
+.uni-info {
+  min-height: 350px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.uni-info img {
+  border-radius: 3px;
+}
+.bani img {
+  /* height: 164px; */
+  margin-top: 10px;
+}
+.bani .card {
+  height: 400px !important;
+}
+.event {
+  min-height: 500px;
+  background-color: aliceblue;
+}
+.event img {
+  max-height: 265px !important;
+}
+.footer {
+  height: 300px;
+
+  border-radius: 10px;
+
+}
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.footer ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: cursive;
+}
+.footer ul li a:hover {
+  color: rgb(22, 41, 181);
+}
+.footer .links {
+  padding: 28px !important;
+}
+footer p{
+  padding-bottom: 7px;
+  font-size: 15px;
+    font-family: cursive;
+}
